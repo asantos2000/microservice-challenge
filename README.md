@@ -3,18 +3,18 @@
 ## Cenário
 Uma companhia de telecomunicações quer modernizar sua aplicação de CRM, um monilítico desenvolvido em casa.
 
-Neste cenário *brownfield*, o cliente deseja priorizar o desenvolvimento de registro de interações com a empresa.
+Neste cenário *brownfield*, o cliente deseja priorizar o desenvolvimento da funcionalidade de registro de interações do cliente com a empresa.
 
 Essa funcionalidade é utilizada por todos os canais (web, app móvel, unidade de resposta audível - ura e sistemas de parceiros).
 
 Para o MVP, o cliente escolheu duas funções:
 
-- **Fornecer protocolo**: Gera um código único, mas legível pelo usuário, utilizado como identificador de um atendimento. Todos as solicitações, reclamações, elogíos, etc., realizadas pelo o usuário, serão *marcados* esse código.
-- **Registrar manifestações do cliente**: Registro simples de manifestações do cliente, tais como: elogíos, reclamações e sugestões. Esses registros são utilizados por algumas áreas internas da empresa.
+- **Fornecer protocolo**: Gera um código único, mas legível pelo cliente, utilizado como identificador de um atendimento. Todas as solicitações, reclamações, elogíos, etc., realizadas pelo cliente, serão *marcadas* com esse código.
+- **Registrar manifestações do cliente**: Registro simples de manifestações do cliente, tais como: elogíos, reclamações e sugestões. Esses registros serão utilizados por algumas áreas e sistemas internos de atendimento da empresa, por exemplo: ouvidoria, atenção ao cliente, entre outras.
 
 ## Restrições
 
-- O custo deve ser considerado nas decisões arquiteturais;
+- O custo financeiro para desenvolver, manter e escalar os serviços deve ser considerado nas decisões do projeto;
 - Todo o software deve ser *open source*.
 
 ## Requisitos não funcionais
@@ -23,7 +23,7 @@ Para o MVP, o cliente escolheu duas funções:
 
 ## Explique suas decisões
 - Explique suas decisões arquiteturas;
-- Justifique suas escolhas de produtos.
+- Justifique a escolha dos produtos.
 
 ## Seu código
 - Seu código-fonte deve ser disponibilizado no github;
